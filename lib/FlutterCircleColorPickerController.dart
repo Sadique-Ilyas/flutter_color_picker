@@ -312,6 +312,7 @@ class _LightnessSliderState extends State<_LightnessSlider>
                 ),
               ),
             ),
+            
             Positioned(
               left: widget.lightness * (widget.width - widget.thumbSize),
               child: ScaleTransition(
